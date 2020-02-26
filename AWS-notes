@@ -1,0 +1,29 @@
+login AWS
+GO to EC2
+Create the machine...
+
+already created 3 machines (centos)
+username :centos
+pw : by private key.
+
+1. log in creation (Key)
+while creating machines: have downloaded bellow file
+vanthiyathevan.pem
+
+Go to putty gen, load this file and down load the private key
+and name it as "<AWS_login_privatekey>"
+
+2. Find the IP from the aws which you created, 
+open putty App, in that 
+Session --> host ip
+SSH --> Auth--> browse the "<AWS_login_privatekey>"
+and open...
+
+3. Machine will be launched..
+4. user centos
+5.sudo -i
+done..............
+
+
+
+
